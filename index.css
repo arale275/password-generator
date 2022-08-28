@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 32px;
+}
+
+.grid-container {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  height: 100vh;
+  background: linear-gradient(to bottom, #63B6B0 0%, #10B881 100%); 
+}
+
+h1, 
+h2,
+p,
+button {
+  margin: 0;
+  padding: 0;
+}
+
+h1 span {
+ color: #eee;
+}
+
+
+button {
+  border-radius: 5px;
+  margin: 5%;
+  padding: 5%;
+  background: linear-gradient(45deg, #CE5937 0%, #C59237 100%);
+}
+
+.input-el {
+  border-radius: 5px;
+  margin: 5%;
+  padding: 5%;
+  border: 1px solid #eee;
+  box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+
+
